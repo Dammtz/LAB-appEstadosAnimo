@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Mood today</title>
+</head>
+
+<body>
+
+    <main class="text-container">
+
+        <h1> Bienvenidx a este espacio seguro dónde puedes contarnos tu estado de ánimo. <img
+                src="./img/img-inicio.png"> </h1>
+
+
+        <div class="input-sentim">
+
+            <label for="hoy-input">¿Como te sientes el día de hoy? ¿Triste o Feliz?</label>
+
+            <input type="text" id="hoy-sent" placeholder="Ej. Feliz" step="any">
+
+        </div>
+       
+        <p id="texto"></p>
+        <img id="imagen" src="./img/dino-generation.jpg" alt="Img emocion" width="200" height="200">
+        
+        
+        <button id="fetch-btn" class="btn-primary" >
+
+            Dinoemocion
+
+        </button>
+
+    </main>
+
+    <script src="./scrip.js"></script>
+</body>
+
+</html>
